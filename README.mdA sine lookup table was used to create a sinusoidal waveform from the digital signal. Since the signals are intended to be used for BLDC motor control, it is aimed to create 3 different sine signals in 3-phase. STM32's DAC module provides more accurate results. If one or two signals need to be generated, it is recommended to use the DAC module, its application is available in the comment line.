@@ -1,0 +1,3 @@
+A sine lookup table was used to create a sinusoidal waveform from the digital signal.
+Since the signals are intended to be used for BLDC motor control, it is aimed to create 3 different sine signals in 3-phase. 
+STM32's DAC module provides more accurate results. If one or two signals need to be generated, it is recommended to use the DAC module, its application is available in the comment line.
